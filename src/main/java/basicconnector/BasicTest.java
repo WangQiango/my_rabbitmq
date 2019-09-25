@@ -26,7 +26,7 @@ public class BasicTest {
             list.add(jsonObj);
             sender.sendMessage(list);
             System.out.println("send:"+ list.toString());
-//            Thread.sleep(1000);
+            Thread.sleep(1000);
         }
     }
 }
